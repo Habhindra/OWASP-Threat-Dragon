@@ -42,8 +42,8 @@
             },
             "visible": true,
             "shape": "trust-boundary-box",
-            "id": "af591bff-577b-4b18-b7e6-686eb4c71d67",
             "zIndex": -1,
+            "id": "af591bff-577b-4b18-b7e6-686eb4c71d67",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "TB1 (Public / Network Boundary)",
@@ -86,6 +86,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 1,
             "ports": {
               "groups": {
                 "top": {
@@ -169,7 +170,6 @@
               ]
             },
             "id": "f3498a71-5b74-488b-b4ef-4b08a47cdb79",
-            "zIndex": 1,
             "data": {
               "type": "tm.Actor",
               "name": "Actor_Mahasiswa",
@@ -203,6 +203,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 2,
             "ports": {
               "groups": {
                 "top": {
@@ -286,7 +287,6 @@
               ]
             },
             "id": "79a9d43c-99f7-4399-9111-856a5f5417ed",
-            "zIndex": 2,
             "data": {
               "type": "tm.Actor",
               "name": "Actor_Admin",
@@ -320,6 +320,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 3,
             "ports": {
               "groups": {
                 "top": {
@@ -403,7 +404,6 @@
               ]
             },
             "id": "9485f8ec-d25c-4743-81e4-a46508df07ee",
-            "zIndex": 3,
             "data": {
               "type": "tm.Actor",
               "name": "Actor_Dosen",
@@ -437,6 +437,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 4,
             "ports": {
               "groups": {
                 "top": {
@@ -520,7 +521,6 @@
               ]
             },
             "id": "43d76d3a-a9ee-4ee7-bb01-599e5719d28d",
-            "zIndex": 4,
             "data": {
               "type": "tm.Process",
               "name": "P1\nWeb_App_Presensi",
@@ -557,6 +557,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 5,
             "ports": {
               "groups": {
                 "top": {
@@ -640,7 +641,6 @@
               ]
             },
             "id": "c2228f56-acdb-4816-a826-bd1da50a32c4",
-            "zIndex": 5,
             "data": {
               "type": "tm.Process",
               "name": "P2\nBackend_Presensi",
@@ -677,6 +677,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 6,
             "ports": {
               "groups": {
                 "top": {
@@ -760,7 +761,6 @@
               ]
             },
             "id": "8818e9d7-adc7-44ed-9fd1-7481035abb09",
-            "zIndex": 6,
             "data": {
               "type": "tm.Process",
               "name": "P3\nLayanan_Autentikasi",
@@ -1210,6 +1210,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 11,
             "ports": {
               "groups": {
                 "top": {
@@ -1293,7 +1294,6 @@
               ]
             },
             "id": "c47985dc-3325-4646-b9c3-2fc9bcd8005f",
-            "zIndex": 11,
             "data": {
               "type": "tm.Store",
               "name": "DS1_Database_Akademik",
