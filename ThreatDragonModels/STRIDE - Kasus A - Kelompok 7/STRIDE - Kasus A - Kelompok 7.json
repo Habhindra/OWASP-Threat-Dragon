@@ -25,7 +25,1292 @@
         "placeholder": "Deskripsi diagram STRIDE baru",
         "thumbnail": "./public/content/images/thumbnail.stride.jpg",
         "version": "2.6.2",
-        "cells": []
+        "cells": [
+          {
+            "position": {
+              "x": 430,
+              "y": 70
+            },
+            "size": {
+              "width": 590,
+              "height": 440
+            },
+            "attrs": {
+              "label": {
+                "text": "TB1 (Public / Network Boundary)"
+              }
+            },
+            "visible": true,
+            "shape": "trust-boundary-box",
+            "id": "af591bff-577b-4b18-b7e6-686eb4c71d67",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "TB1 (Public / Network Boundary)",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [
+                "e9cfcfaa-dacd-406e-9b8a-28282ba182df",
+                "aa4d075a-fb12-4cad-9ce9-25d28979f1ad",
+                "62bcb3c9-58a9-4af0-9781-96d597689da9",
+                "543919ba-335c-4300-ab3d-c2eb95376ecc",
+                "6fb20952-3670-4706-8419-a0edc342fbae"
+              ],
+              "containedElements": [
+                "43d76d3a-a9ee-4ee7-bb01-599e5719d28d",
+                "c2228f56-acdb-4816-a826-bd1da50a32c4",
+                "8818e9d7-adc7-44ed-9fd1-7481035abb09",
+                "c47985dc-3325-4646-b9c3-2fc9bcd8005f"
+              ]
+            }
+          },
+          {
+            "position": {
+              "x": 17.5,
+              "y": 430
+            },
+            "size": {
+              "width": 120,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Actor_Mahasiswa"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "69306240-24cc-4cbc-90ea-6b17cc9f1106"
+                },
+                {
+                  "group": "right",
+                  "id": "9754c070-0f1d-4da0-b491-e242f6978bd8"
+                },
+                {
+                  "group": "bottom",
+                  "id": "b72ac547-a833-4e15-b02c-31071f54a148"
+                },
+                {
+                  "group": "left",
+                  "id": "db7ac967-d022-41cf-81ac-c13f49f797b2"
+                }
+              ]
+            },
+            "id": "f3498a71-5b74-488b-b4ef-4b08a47cdb79",
+            "zIndex": 1,
+            "data": {
+              "type": "tm.Actor",
+              "name": "Actor_Mahasiswa",
+              "description": "",
+              "isTrustBoundary": false,
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "providesAuthentication": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 21.25,
+              "y": 290
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Actor_Admin"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "69306240-24cc-4cbc-90ea-6b17cc9f1106"
+                },
+                {
+                  "group": "right",
+                  "id": "9754c070-0f1d-4da0-b491-e242f6978bd8"
+                },
+                {
+                  "group": "bottom",
+                  "id": "b72ac547-a833-4e15-b02c-31071f54a148"
+                },
+                {
+                  "group": "left",
+                  "id": "db7ac967-d022-41cf-81ac-c13f49f797b2"
+                }
+              ]
+            },
+            "id": "79a9d43c-99f7-4399-9111-856a5f5417ed",
+            "zIndex": 2,
+            "data": {
+              "type": "tm.Actor",
+              "name": "Actor_Admin",
+              "description": "",
+              "isTrustBoundary": false,
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "providesAuthentication": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 13.75,
+              "y": 140
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Actor_Dosen"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "69306240-24cc-4cbc-90ea-6b17cc9f1106"
+                },
+                {
+                  "group": "right",
+                  "id": "9754c070-0f1d-4da0-b491-e242f6978bd8"
+                },
+                {
+                  "group": "bottom",
+                  "id": "b72ac547-a833-4e15-b02c-31071f54a148"
+                },
+                {
+                  "group": "left",
+                  "id": "db7ac967-d022-41cf-81ac-c13f49f797b2"
+                }
+              ]
+            },
+            "id": "9485f8ec-d25c-4743-81e4-a46508df07ee",
+            "zIndex": 3,
+            "data": {
+              "type": "tm.Actor",
+              "name": "Actor_Dosen",
+              "description": "",
+              "isTrustBoundary": false,
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "providesAuthentication": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 490,
+              "y": 160
+            },
+            "size": {
+              "width": 90,
+              "height": 90
+            },
+            "attrs": {
+              "text": {
+                "text": "P1\nWeb_App_Presensi"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "7483e8da-e430-46ec-8588-4d6ec8c11d33"
+                },
+                {
+                  "group": "right",
+                  "id": "573358f2-d7e6-4e19-93b3-df606782a497"
+                },
+                {
+                  "group": "bottom",
+                  "id": "bdbae7c8-16a3-48a2-92b3-774fb78dbc79"
+                },
+                {
+                  "group": "left",
+                  "id": "3b85a8c8-e948-4178-b608-a623c50ac1f8"
+                }
+              ]
+            },
+            "id": "43d76d3a-a9ee-4ee7-bb01-599e5719d28d",
+            "zIndex": 4,
+            "data": {
+              "type": "tm.Process",
+              "name": "P1\nWeb_App_Presensi",
+              "description": "Web_App_Presensi (Antarmuka Web Frontend)",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": true,
+              "privilegeLevel": "",
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 440,
+              "y": 360
+            },
+            "size": {
+              "width": 100,
+              "height": 90
+            },
+            "attrs": {
+              "text": {
+                "text": "P2\nBackend_Presensi"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "7483e8da-e430-46ec-8588-4d6ec8c11d33"
+                },
+                {
+                  "group": "right",
+                  "id": "573358f2-d7e6-4e19-93b3-df606782a497"
+                },
+                {
+                  "group": "bottom",
+                  "id": "bdbae7c8-16a3-48a2-92b3-774fb78dbc79"
+                },
+                {
+                  "group": "left",
+                  "id": "3b85a8c8-e948-4178-b608-a623c50ac1f8"
+                }
+              ]
+            },
+            "id": "c2228f56-acdb-4816-a826-bd1da50a32c4",
+            "zIndex": 5,
+            "data": {
+              "type": "tm.Process",
+              "name": "P2\nBackend_Presensi",
+              "description": "Backend_Presensi (Backend Validasi & Logika Bisnis)",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": true,
+              "privilegeLevel": "",
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 870,
+              "y": 350
+            },
+            "size": {
+              "width": 110,
+              "height": 80
+            },
+            "attrs": {
+              "text": {
+                "text": "P3\nLayanan_Autentikasi"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "7483e8da-e430-46ec-8588-4d6ec8c11d33"
+                },
+                {
+                  "group": "right",
+                  "id": "573358f2-d7e6-4e19-93b3-df606782a497"
+                },
+                {
+                  "group": "bottom",
+                  "id": "bdbae7c8-16a3-48a2-92b3-774fb78dbc79"
+                },
+                {
+                  "group": "left",
+                  "id": "3b85a8c8-e948-4178-b608-a623c50ac1f8"
+                }
+              ]
+            },
+            "id": "8818e9d7-adc7-44ed-9fd1-7481035abb09",
+            "zIndex": 6,
+            "data": {
+              "type": "tm.Process",
+              "name": "P3\nLayanan_Autentikasi",
+              "description": "Layanan_Autentikasi (SSO / Auth Kampus)",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
+              "threats": []
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Buka sesi kelas & minta QR",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": [
+                "af591bff-577b-4b18-b7e6-686eb4c71d67"
+              ]
+            },
+            "labels": [
+              "Buka sesi kelas & minta QR"
+            ],
+            "id": "e9cfcfaa-dacd-406e-9b8a-28282ba182df",
+            "source": {
+              "cell": "9485f8ec-d25c-4743-81e4-a46508df07ee",
+              "port": "9754c070-0f1d-4da0-b491-e242f6978bd8"
+            },
+            "target": {
+              "cell": "43d76d3a-a9ee-4ee7-bb01-599e5719d28d",
+              "port": "3b85a8c8-e948-4178-b608-a623c50ac1f8"
+            },
+            "vertices": [
+              {
+                "x": 300,
+                "y": 150
+              },
+              {
+                "x": 340,
+                "y": 170
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Tampilkan QR Code (berlaku 5 menit)",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": [
+                "af591bff-577b-4b18-b7e6-686eb4c71d67"
+              ]
+            },
+            "labels": [
+              "Tampilkan QR Code (berlaku 5 menit)"
+            ],
+            "id": "aa4d075a-fb12-4cad-9ce9-25d28979f1ad",
+            "source": {
+              "cell": "43d76d3a-a9ee-4ee7-bb01-599e5719d28d",
+              "port": "bdbae7c8-16a3-48a2-92b3-774fb78dbc79"
+            },
+            "target": {
+              "cell": "9485f8ec-d25c-4743-81e4-a46508df07ee",
+              "port": "9754c070-0f1d-4da0-b491-e242f6978bd8"
+            },
+            "vertices": [
+              {
+                "x": 290,
+                "y": 220
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Mengirim ID sesi, token QR & auth info",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": [
+                "af591bff-577b-4b18-b7e6-686eb4c71d67"
+              ]
+            },
+            "labels": [
+              "Mengirim ID sesi, token QR & auth info"
+            ],
+            "id": "62bcb3c9-58a9-4af0-9781-96d597689da9",
+            "source": {
+              "cell": "f3498a71-5b74-488b-b4ef-4b08a47cdb79",
+              "port": "9754c070-0f1d-4da0-b491-e242f6978bd8"
+            },
+            "target": {
+              "cell": "c2228f56-acdb-4816-a826-bd1da50a32c4",
+              "port": "3b85a8c8-e948-4178-b608-a623c50ac1f8"
+            },
+            "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Validasi kredensial & status mahasiswa",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Validasi kredensial & status mahasiswa"
+            ],
+            "id": "64dcc3d0-2aee-4190-9c62-84988e265297",
+            "source": {
+              "cell": "c2228f56-acdb-4816-a826-bd1da50a32c4",
+              "port": "7483e8da-e430-46ec-8588-4d6ec8c11d33"
+            },
+            "target": {
+              "cell": "8818e9d7-adc7-44ed-9fd1-7481035abb09",
+              "port": "3b85a8c8-e948-4178-b608-a623c50ac1f8"
+            },
+            "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Validasi kredensial & status mahasiswa",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Validasi kredensial & status mahasiswa"
+            ],
+            "id": "fb29988c-cda8-4542-85be-2ceee65c4580",
+            "source": {
+              "cell": "8818e9d7-adc7-44ed-9fd1-7481035abb09",
+              "port": "bdbae7c8-16a3-48a2-92b3-774fb78dbc79"
+            },
+            "target": {
+              "cell": "c2228f56-acdb-4816-a826-bd1da50a32c4",
+              "port": "573358f2-d7e6-4e19-93b3-df606782a497"
+            },
+            "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Tambahkan catatan kehadiran",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Tambahkan catatan kehadiran"
+            ],
+            "id": "e2f7b3df-b28f-4329-9a5f-81fbc56a6d2a",
+            "source": {
+              "cell": "c2228f56-acdb-4816-a826-bd1da50a32c4",
+              "port": "7483e8da-e430-46ec-8588-4d6ec8c11d33"
+            },
+            "target": {
+              "cell": "c47985dc-3325-4646-b9c3-2fc9bcd8005f",
+              "port": "accf9fb0-1565-44be-9780-df0b18b1df0c"
+            },
+            "vertices": [
+              {
+                "x": 660,
+                "y": 310
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Request rekap presensi seluruh kelas",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": [
+                "af591bff-577b-4b18-b7e6-686eb4c71d67"
+              ]
+            },
+            "labels": [
+              "Request rekap presensi seluruh kelas"
+            ],
+            "id": "543919ba-335c-4300-ab3d-c2eb95376ecc",
+            "source": {
+              "cell": "79a9d43c-99f7-4399-9111-856a5f5417ed",
+              "port": "9754c070-0f1d-4da0-b491-e242f6978bd8"
+            },
+            "target": {
+              "cell": "c2228f56-acdb-4816-a826-bd1da50a32c4",
+              "port": "3b85a8c8-e948-4178-b608-a623c50ac1f8"
+            },
+            "vertices": [
+              {
+                "x": 330,
+                "y": 310
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Kirim data rekap presensi",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": [
+                "af591bff-577b-4b18-b7e6-686eb4c71d67"
+              ]
+            },
+            "labels": [
+              "Kirim data rekap presensi"
+            ],
+            "id": "6fb20952-3670-4706-8419-a0edc342fbae",
+            "source": {
+              "cell": "c2228f56-acdb-4816-a826-bd1da50a32c4",
+              "port": "3b85a8c8-e948-4178-b608-a623c50ac1f8"
+            },
+            "target": {
+              "cell": "79a9d43c-99f7-4399-9111-856a5f5417ed",
+              "port": "9754c070-0f1d-4da0-b491-e242f6978bd8"
+            },
+            "vertices": []
+          },
+          {
+            "position": {
+              "x": 710,
+              "y": 190
+            },
+            "size": {
+              "width": 120,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "DS1_Database_Akademik"
+              },
+              "topLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              },
+              "bottomLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "store",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "aacfa0a7-e940-4b7f-a722-f8a0df9c5d3c"
+                },
+                {
+                  "group": "right",
+                  "id": "19040edf-9db9-46c7-abb9-ad02c6abd86c"
+                },
+                {
+                  "group": "bottom",
+                  "id": "accf9fb0-1565-44be-9780-df0b18b1df0c"
+                },
+                {
+                  "group": "left",
+                  "id": "1adde192-aac1-437f-a7d8-d5f5ab72c261"
+                }
+              ]
+            },
+            "id": "c47985dc-3325-4646-b9c3-2fc9bcd8005f",
+            "zIndex": 11,
+            "data": {
+              "type": "tm.Store",
+              "name": "DS1_Database_Akademik",
+              "description": "(Penyimpanan Data Sesi & Kehadiran)",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isALog": false,
+              "isEncrypted": false,
+              "isSigned": false,
+              "storesCredentials": false,
+              "storesInventory": false,
+              "threats": []
+            }
+          }
+        ]
       }
     ],
     "diagramTop": 1,
