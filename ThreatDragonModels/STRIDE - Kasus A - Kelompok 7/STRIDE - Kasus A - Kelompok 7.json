@@ -27,42 +27,261 @@
         "version": "2.6.2",
         "cells": [
           {
-            "position": {
-              "x": 430,
-              "y": 70
-            },
-            "size": {
-              "width": 590,
-              "height": 440
-            },
-            "attrs": {
-              "label": {
-                "text": "TB1 (Public / Network Boundary)"
-              }
-            },
-            "visible": true,
-            "shape": "trust-boundary-box",
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
             "zIndex": -1,
-            "id": "af591bff-577b-4b18-b7e6-686eb4c71d67",
+            "connector": "smooth",
             "data": {
-              "type": "tm.BoundaryBox",
-              "name": "TB1 (Public / Network Boundary)",
+              "type": "tm.Boundary",
+              "name": "Public Network",
               "description": "",
               "isTrustBoundary": true,
               "hasOpenThreats": false,
-              "crossingFlows": [
-                "e9cfcfaa-dacd-406e-9b8a-28282ba182df",
-                "aa4d075a-fb12-4cad-9ce9-25d28979f1ad",
-                "62bcb3c9-58a9-4af0-9781-96d597689da9",
-                "543919ba-335c-4300-ab3d-c2eb95376ecc",
-                "6fb20952-3670-4706-8419-a0edc342fbae"
+              "crossingFlows": [],
+              "containedElements": []
+            },
+            "labels": [
+              "Public Network"
+            ],
+            "id": "f3e44b49-bfde-4fe5-9d0d-1cde364383ee",
+            "source": {
+              "x": 320,
+              "y": 30
+            },
+            "target": {
+              "x": 500,
+              "y": 650
+            },
+            "vertices": [
+              {
+                "x": 460,
+                "y": 270
+              },
+              {
+                "x": 390,
+                "y": 510
+              }
+            ],
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead"
               ],
-              "containedElements": [
-                "43d76d3a-a9ee-4ee7-bb01-599e5719d28d",
-                "c2228f56-acdb-4816-a826-bd1da50a32c4",
-                "8818e9d7-adc7-44ed-9fd1-7481035abb09",
-                "c47985dc-3325-4646-b9c3-2fc9bcd8005f"
-              ]
+              "name": null
             }
           },
           {
@@ -807,9 +1026,7 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": [
-                "af591bff-577b-4b18-b7e6-686eb4c71d67"
-              ]
+              "trustBoundaryIds": []
             },
             "labels": [
               "Buka sesi kelas & minta QR"
@@ -865,9 +1082,7 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": [
-                "af591bff-577b-4b18-b7e6-686eb4c71d67"
-              ]
+              "trustBoundaryIds": []
             },
             "labels": [
               "Tampilkan QR Code (berlaku 5 menit)"
@@ -919,9 +1134,7 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": [
-                "af591bff-577b-4b18-b7e6-686eb4c71d67"
-              ]
+              "trustBoundaryIds": []
             },
             "labels": [
               "Mengirim ID sesi, token QR & auth info"
@@ -1114,9 +1327,7 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": [
-                "af591bff-577b-4b18-b7e6-686eb4c71d67"
-              ]
+              "trustBoundaryIds": []
             },
             "labels": [
               "Request rekap presensi seluruh kelas"
@@ -1168,9 +1379,7 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": [
-                "af591bff-577b-4b18-b7e6-686eb4c71d67"
-              ]
+              "trustBoundaryIds": []
             },
             "labels": [
               "Kirim data rekap presensi"
