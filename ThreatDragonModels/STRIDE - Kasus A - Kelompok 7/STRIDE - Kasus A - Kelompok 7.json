@@ -959,7 +959,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Validasi kredensial & status mahasiswa",
+              "name": "Hasil Validasi kredensial & status mahasiswa",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -973,7 +973,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Validasi kredensial & status mahasiswa"
+              "Hasil Validasi kredensial & status mahasiswa"
             ],
             "id": "fb29988c-cda8-4542-85be-2ceee65c4580",
             "source": {
@@ -1134,6 +1134,53 @@
             "target": {
               "cell": "79a9d43c-99f7-4399-9111-856a5f5417ed",
               "port": "9754c070-0f1d-4da0-b491-e242f6978bd8"
+            },
+            "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Request pembukaan sesi",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Request pembukaan sesi"
+            ],
+            "id": "72cd5fff-d0c0-4a47-bb6f-024b9adabd6a",
+            "source": {
+              "cell": "43d76d3a-a9ee-4ee7-bb01-599e5719d28d",
+              "port": "bdbae7c8-16a3-48a2-92b3-774fb78dbc79"
+            },
+            "target": {
+              "cell": "c2228f56-acdb-4816-a826-bd1da50a32c4",
+              "port": "7483e8da-e430-46ec-8588-4d6ec8c11d33"
             },
             "vertices": []
           },
