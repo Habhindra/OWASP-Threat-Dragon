@@ -1,0 +1,28 @@
+{
+  "version": "2.6.2",
+  "release_version": "",
+  "released_at": "2026-11-20",
+  "summary": {
+    "title": "STRIDE - Kasus A - Kelompok 7",
+    "owner": "Habhindra, Fito, Jo",
+    "description": "Threat modeling sistem presensi perkuliahan berbasis QR Code menggunakan metode STRIDE.",
+    "id": 0
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [
+      {
+        "id": 0,
+        "title": "DFD Presensi QR Code",
+        "diagramType": "STRIDE",
+        "placeholder": "Deskripsi diagram STRIDE baru",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "version": "2.6.2",
+        "cells": []
+      }
+    ],
+    "diagramTop": 1,
+    "reviewer": "",
+    "threatTop": 0
+  }
+}
