@@ -1269,7 +1269,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Boundary",
-              "name": "Public Netwrok",
+              "name": "Public Network",
               "description": "",
               "isTrustBoundary": true,
               "hasOpenThreats": false,
@@ -1277,7 +1277,7 @@
               "containedElements": []
             },
             "labels": [
-              "Public Netwrok"
+              "Public Network"
             ],
             "id": "1fdf93ad-7ebe-487b-bec8-5346af06c373",
             "source": {
@@ -1287,7 +1287,13 @@
             "target": {
               "x": 410,
               "y": 660
-            }
+            },
+            "vertices": [
+              {
+                "x": 440,
+                "y": 280
+              }
+            ]
           }
         ]
       }
