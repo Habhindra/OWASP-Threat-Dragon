@@ -37,7 +37,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Actor_Mahasiswa"
+                "text": "Mahasiswa"
               },
               "body": {
                 "stroke": "#333333",
@@ -133,7 +133,7 @@
             "id": "f3498a71-5b74-488b-b4ef-4b08a47cdb79",
             "data": {
               "type": "tm.Actor",
-              "name": "Actor_Mahasiswa",
+              "name": "Mahasiswa",
               "description": "",
               "isTrustBoundary": false,
               "outOfScope": false,
@@ -154,7 +154,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Actor_Admin"
+                "text": "Admin Akademik"
               },
               "body": {
                 "stroke": "#333333",
@@ -250,7 +250,7 @@
             "id": "79a9d43c-99f7-4399-9111-856a5f5417ed",
             "data": {
               "type": "tm.Actor",
-              "name": "Actor_Admin",
+              "name": "Admin Akademik",
               "description": "",
               "isTrustBoundary": false,
               "outOfScope": false,
@@ -271,7 +271,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Actor_Dosen"
+                "text": "Dosen Pengampu"
               },
               "body": {
                 "stroke": "#333333",
@@ -367,7 +367,7 @@
             "id": "9485f8ec-d25c-4743-81e4-a46508df07ee",
             "data": {
               "type": "tm.Actor",
-              "name": "Actor_Dosen",
+              "name": "Dosen Pengampu",
               "description": "",
               "isTrustBoundary": false,
               "outOfScope": false,
@@ -388,7 +388,7 @@
             },
             "attrs": {
               "text": {
-                "text": "P1\nWeb_App_Presensi"
+                "text": "Web_App_Presensi"
               },
               "body": {
                 "stroke": "#333333",
@@ -484,7 +484,7 @@
             "id": "43d76d3a-a9ee-4ee7-bb01-599e5719d28d",
             "data": {
               "type": "tm.Process",
-              "name": "P1\nWeb_App_Presensi",
+              "name": "Web_App_Presensi",
               "description": "Web_App_Presensi (Antarmuka Web Frontend)",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -508,7 +508,7 @@
             },
             "attrs": {
               "text": {
-                "text": "P2\nBackend_Presensi"
+                "text": "Backend_Presensi"
               },
               "body": {
                 "stroke": "#333333",
@@ -604,7 +604,7 @@
             "id": "c2228f56-acdb-4816-a826-bd1da50a32c4",
             "data": {
               "type": "tm.Process",
-              "name": "P2\nBackend_Presensi",
+              "name": "Backend_Presensi",
               "description": "Backend_Presensi (Backend Validasi & Logika Bisnis)",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -628,7 +628,7 @@
             },
             "attrs": {
               "text": {
-                "text": "P3\nLayanan_Autentikasi"
+                "text": "Layanan_Autentikasi"
               },
               "body": {
                 "stroke": "#333333",
@@ -724,7 +724,7 @@
             "id": "8818e9d7-adc7-44ed-9fd1-7481035abb09",
             "data": {
               "type": "tm.Process",
-              "name": "P3\nLayanan_Autentikasi",
+              "name": "Layanan_Autentikasi",
               "description": "Layanan_Autentikasi (SSO / Auth Kampus)",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1148,7 +1148,7 @@
             },
             "attrs": {
               "text": {
-                "text": "DS1_Database_Akademik"
+                "text": "Database_Akademik"
               },
               "topLine": {
                 "strokeWidth": 1.5,
@@ -1247,7 +1247,7 @@
             "id": "c47985dc-3325-4646-b9c3-2fc9bcd8005f",
             "data": {
               "type": "tm.Store",
-              "name": "DS1_Database_Akademik",
+              "name": "Database_Akademik",
               "description": "(Penyimpanan Data Sesi & Kehadiran)",
               "outOfScope": false,
               "isTrustBoundary": false,
