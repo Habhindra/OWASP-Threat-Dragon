@@ -4,12 +4,19 @@
   "released_at": "2026-11-20",
   "summary": {
     "title": "STRIDE - Kasus A - Kelompok 7",
-    "owner": "Habhindra, Fito, Jo",
+    "owner": "Habhindra, Fito, I Wayan",
     "description": "Threat modeling sistem presensi perkuliahan berbasis QR Code menggunakan metode STRIDE.",
     "id": 0
   },
   "detail": {
-    "contributors": [],
+    "contributors": [
+      {
+        "name": "I wayan"
+      },
+      {
+        "name": "Fito"
+      }
+    ],
     "diagrams": [
       {
         "id": 0,
@@ -22,7 +29,7 @@
       }
     ],
     "diagramTop": 1,
-    "reviewer": "",
+    "reviewer": "Habhindra",
     "threatTop": 0
   }
 }
